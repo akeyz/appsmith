@@ -619,6 +619,7 @@ export const ReduxActionTypes = {
   RESTART_SERVER_POLL: "RESTART_SERVER_POLL",
   FIRST_TIME_USER_ONBOARDING_INIT: "FIRST_TIME_USER_ONBOARDING_INIT",
   SET_USER_ROLE_USECASE: "SET_USER_ROLE_USECASE",
+  SEND_TEST_EMAIL: "SEND_TEST_EMAIL",
 };
 
 export type ReduxActionType = typeof ReduxActionTypes[keyof typeof ReduxActionTypes];
